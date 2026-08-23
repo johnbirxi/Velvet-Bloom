@@ -1,0 +1,1794 @@
+ /* =========================================================
+   MODERN HOT PINK — OBSIDIAN THEME
+   Dark + Light
+   Layered Hot Pink Edition
+   ========================================================= */
+
+
+ /* =========================================================
+   DARK MODE
+   ========================================================= */
+
+ .theme-dark {
+
+     /* -----------------------------------------------------
+       BACKGROUND LAYERS
+       ----------------------------------------------------- */
+
+     --background-primary: #0d0d12;
+     --background-primary-alt: #111117;
+
+     --background-secondary: #08080c;
+     --background-secondary-alt: #14141b;
+
+     /* Pink-tinted surfaces */
+     --background-modifier-hover:
+         rgba(255, 20, 147, 0.075);
+
+     --background-modifier-active-hover:
+         rgba(255, 20, 147, 0.15);
+
+     --background-modifier-form-field:
+         #15151c;
+
+
+     /* -----------------------------------------------------
+       BORDERS
+       ----------------------------------------------------- */
+
+     --background-modifier-border:
+         #292933;
+
+     --background-modifier-border-hover:
+         #454552;
+
+
+     /* -----------------------------------------------------
+       PINK BORDERS
+       ----------------------------------------------------- */
+
+     --pink-border-dark:
+         #5c1742;
+
+     --pink-border:
+         #9e1d62;
+
+     --pink-border-bright:
+         #d41478;
+
+
+     /* -----------------------------------------------------
+       PINK PALETTE
+       ----------------------------------------------------- */
+
+     --pink-deep:
+         #6e0845;
+
+     --pink-dark:
+         #a20c5f;
+
+     --pink:
+         #d80f76;
+
+     --pink-hot:
+         #ff1493;
+
+     --pink-bright:
+         #ff2fa3;
+
+     --pink-light:
+         #ff5db5;
+
+     --pink-soft:
+         #ff78c2;
+
+
+     /* -----------------------------------------------------
+       GLOW
+       ----------------------------------------------------- */
+
+     --pink-glow-small:
+         rgba(255, 20, 147, 0.18);
+
+     --pink-glow:
+         rgba(255, 20, 147, 0.30);
+
+     --pink-glow-strong:
+         rgba(255, 20, 147, 0.48);
+
+
+     /* -----------------------------------------------------
+       STATUS
+       ----------------------------------------------------- */
+
+     --background-modifier-success:
+         #3cd68e;
+
+     --background-modifier-error:
+         #ff4d6d;
+
+     --background-modifier-error-rgb:
+         255, 77, 109;
+
+
+     /* -----------------------------------------------------
+       TEXT
+       ----------------------------------------------------- */
+
+     --text-normal:
+         #eeeeF2;
+
+     --text-muted:
+         #a2a2ad;
+
+     --text-faint:
+         #70707c;
+
+     --text-on-accent:
+         #ffffff;
+
+     --text-error:
+         #ff6b8b;
+
+
+     /* -----------------------------------------------------
+       SELECTION
+       ----------------------------------------------------- */
+
+     --text-highlight-bg:
+         rgba(255, 20, 147, 0.30);
+
+     --text-selection:
+         rgba(255, 20, 147, 0.24);
+
+
+     /* -----------------------------------------------------
+       INTERACTIVE
+       ----------------------------------------------------- */
+
+     --interactive-normal:
+         #18181f;
+
+     --interactive-hover:
+         #23232c;
+
+     --interactive-accent:
+         #ff1493;
+
+     --interactive-accent-hover:
+         #ff3fa8;
+
+     --interactive-accent-rgb:
+         255, 20, 147;
+
+
+     /* -----------------------------------------------------
+       LINKS
+       ----------------------------------------------------- */
+
+     --link-color:
+         #ff55ae;
+
+     --link-color-hover:
+         #ff78c2;
+
+     --link-unresolved-color:
+         #8d426b;
+
+
+     /* -----------------------------------------------------
+       HEADINGS
+       ----------------------------------------------------- */
+
+     --h1-color:
+         #ff1493;
+
+     --h2-color:
+         #ff2f9f;
+
+     --h3-color:
+         #ff4eac;
+
+     --h4-color:
+         #ff6bb8;
+
+     --h5-color:
+         #d9d9e0;
+
+     --h6-color:
+         #aaaab5;
+
+
+     --bold-color:
+         #ffffff;
+
+     --italic-color:
+         #ff69b4;
+
+
+     /* -----------------------------------------------------
+       CODE
+       ----------------------------------------------------- */
+
+     --code-normal:
+         #ff69b4;
+
+     --code-background:
+         #15151c;
+
+     --code-property:
+         #ff4fa8;
+
+     --code-comment:
+         #70707c;
+
+     --code-string:
+         #e0a4c5;
+
+
+     /* -----------------------------------------------------
+       OTHER
+       ----------------------------------------------------- */
+
+     --blockquote-border-color:
+         #ff1493;
+
+     --hr-color:
+         #3b2030;
+
+     --titlebar-background:
+         #08080c;
+
+     --titlebar-background-focused:
+         #0d0d12;
+
+     --tab-text-color-focused-active:
+         #ff55ae;
+
+     --tab-outline-color:
+         #292933;
+
+     --nav-item-color-active:
+         #ff55ae;
+
+     --nav-item-background-active:
+         rgba(255, 20, 147, 0.13);
+
+     --nav-collapse-icon-color:
+         #a2a2ad;
+
+
+     /* -----------------------------------------------------
+       CHECKBOX
+       ----------------------------------------------------- */
+
+     --checkbox-color:
+         #ff1493;
+
+     --checkbox-color-hover:
+         #ff3fa8;
+
+     --checkbox-border-color:
+         #ff1493;
+
+
+     /* -----------------------------------------------------
+       SCROLLBAR
+       ----------------------------------------------------- */
+
+     --scrollbar-thumb-bg:
+         #302933;
+
+     --scrollbar-active-thumb-bg:
+         #ff1493;
+
+
+     /* -----------------------------------------------------
+       RADIUS
+       ----------------------------------------------------- */
+
+     --radius-s:
+         7px;
+
+     --radius-m:
+         12px;
+
+     --radius-l:
+         18px;
+ }
+
+
+ /* =========================================================
+   LIGHT MODE
+   ========================================================= */
+
+ .theme-light {
+
+     /* -----------------------------------------------------
+       BACKGROUND
+       ----------------------------------------------------- */
+
+     --background-primary:
+         #ffffff;
+
+     --background-primary-alt:
+         #fafafa;
+
+     --background-secondary:
+         #f2f1f4;
+
+     --background-secondary-alt:
+         #e9e8ec;
+
+
+     /* -----------------------------------------------------
+       BORDERS
+       ----------------------------------------------------- */
+
+     --background-modifier-border:
+         #d6d5dc;
+
+     --background-modifier-border-hover:
+         #c4c3cb;
+
+     --background-modifier-form-field:
+         #ffffff;
+
+
+     /* -----------------------------------------------------
+       HOVER
+       ----------------------------------------------------- */
+
+     --background-modifier-hover:
+         rgba(255, 20, 147, 0.065);
+
+     --background-modifier-active-hover:
+         rgba(255, 20, 147, 0.12);
+
+
+     /* -----------------------------------------------------
+       PINK PALETTE
+       ----------------------------------------------------- */
+
+     --pink-deep:
+         #8e084c;
+
+     --pink-dark:
+         #b30961;
+
+     --pink:
+         #d20b70;
+
+     --pink-hot:
+         #e9007f;
+
+     --pink-bright:
+         #f01b91;
+
+     --pink-light:
+         #ed4ca3;
+
+     --pink-soft:
+         #e96aaf;
+
+
+     /* -----------------------------------------------------
+       STATUS
+       ----------------------------------------------------- */
+
+     --background-modifier-success:
+         #258a5d;
+
+     --background-modifier-error:
+         #d92f55;
+
+     --background-modifier-error-rgb:
+         217, 47, 85;
+
+
+     /* -----------------------------------------------------
+       TEXT
+       ----------------------------------------------------- */
+
+     --text-normal:
+         #17171c;
+
+     --text-muted:
+         #555560;
+
+     --text-faint:
+         #777780;
+
+     --text-on-accent:
+         #ffffff;
+
+     --text-error:
+         #c7254d;
+
+
+     /* -----------------------------------------------------
+       SELECTION
+       ----------------------------------------------------- */
+
+     --text-highlight-bg:
+         rgba(255, 20, 147, 0.20);
+
+     --text-selection:
+         rgba(255, 20, 147, 0.16);
+
+
+     /* -----------------------------------------------------
+       INTERACTIVE
+       ----------------------------------------------------- */
+
+     --interactive-normal:
+         #ffffff;
+
+     --interactive-hover:
+         #f1f0f3;
+
+     --interactive-accent:
+         #e9007f;
+
+     --interactive-accent-hover:
+         #c9006d;
+
+     --interactive-accent-rgb:
+         233, 0, 127;
+
+
+     /* -----------------------------------------------------
+       LINKS
+       ----------------------------------------------------- */
+
+     --link-color:
+         #c50068;
+
+     --link-color-hover:
+         #e9007f;
+
+     --link-unresolved-color:
+         #9a5276;
+
+
+     /* -----------------------------------------------------
+       HEADINGS
+       ----------------------------------------------------- */
+
+     --h1-color:
+         #b90061;
+
+     --h2-color:
+         #c9006d;
+
+     --h3-color:
+         #d6197b;
+
+     --h4-color:
+         #c52a78;
+
+     --h5-color:
+         #303038;
+
+     --h6-color:
+         #44444d;
+
+
+     --bold-color:
+         #111116;
+
+     --italic-color:
+         #c90068;
+
+
+     /* -----------------------------------------------------
+       CODE
+       ----------------------------------------------------- */
+
+     --code-normal:
+         #a80061;
+
+     --code-background:
+         #f1f0f3;
+
+     --code-property:
+         #c60068;
+
+     --code-comment:
+         #777780;
+
+     --code-string:
+         #414149;
+
+
+     /* -----------------------------------------------------
+       OTHER
+       ----------------------------------------------------- */
+
+     --blockquote-border-color:
+         #e9007f;
+
+     --hr-color:
+         #d6d5dc;
+
+     --titlebar-background:
+         #fafafa;
+
+     --titlebar-background-focused:
+         #ffffff;
+
+     --tab-text-color-focused-active:
+         #c60068;
+
+     --tab-outline-color:
+         #d6d5dc;
+
+     --nav-item-color-active:
+         #c60068;
+
+     --nav-item-background-active:
+         rgba(255, 20, 147, 0.10);
+
+     --nav-collapse-icon-color:
+         #555560;
+
+
+     /* -----------------------------------------------------
+       CHECKBOX
+       ----------------------------------------------------- */
+
+     --checkbox-color:
+         #e9007f;
+
+     --checkbox-color-hover:
+         #c9006d;
+
+     --checkbox-border-color:
+         #d90076;
+
+
+     /* -----------------------------------------------------
+       SCROLLBAR
+       ----------------------------------------------------- */
+
+     --scrollbar-thumb-bg:
+         #d0cfd6;
+
+     --scrollbar-active-thumb-bg:
+         #e9007f;
+
+
+     /* -----------------------------------------------------
+       RADIUS
+       ----------------------------------------------------- */
+
+     --radius-s:
+         7px;
+
+     --radius-m:
+         12px;
+
+     --radius-l:
+         18px;
+ }
+
+
+ /* =========================================================
+   GLOBAL
+   ========================================================= */
+
+ body {
+
+     font-family:
+         "Inter",
+         -apple-system,
+         BlinkMacSystemFont,
+         "Segoe UI",
+         system-ui,
+         sans-serif;
+
+     letter-spacing:
+         -0.01em;
+ }
+
+
+ /* =========================================================
+   WORKSPACE
+   ========================================================= */
+
+ .workspace-leaf-content {
+
+     background:
+         radial-gradient(circle at 50% 0%,
+             rgba(255, 20, 147, 0.045),
+             transparent 42%);
+ }
+
+
+ /* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+ .nav-file-title,
+ .nav-folder-title {
+
+     border-radius:
+         var(--radius-s);
+
+     margin:
+         2px 6px;
+
+     transition:
+         all 150ms ease;
+ }
+
+
+ .nav-file-title:hover,
+ .nav-folder-title:hover {
+
+     background:
+         linear-gradient(90deg,
+             rgba(255, 20, 147, 0.09),
+             rgba(255, 20, 147, 0.025));
+
+     color:
+         var(--pink-bright);
+
+     transform:
+         translateX(2px);
+ }
+
+
+ .nav-file-title.is-active,
+ .nav-folder-title.is-active,
+ .tree-item-self.is-active {
+
+     color:
+         var(--pink-light);
+
+     background:
+         linear-gradient(90deg,
+             rgba(255, 20, 147, 0.19),
+             rgba(255, 20, 147, 0.07),
+             transparent);
+
+     box-shadow:
+         inset 3px 0 0 var(--pink-hot),
+         0 0 18px rgba(255, 20, 147, 0.06);
+ }
+
+
+ /* =========================================================
+   TABS
+   ========================================================= */
+
+ .workspace-tab-header {
+
+     transition:
+         all 150ms ease;
+ }
+
+
+ .workspace-tab-header:hover {
+
+     background:
+         rgba(255, 20, 147, 0.06);
+
+     color:
+         var(--pink-light);
+ }
+
+
+ .workspace-tab-header.is-active {
+
+     position:
+         relative;
+
+     color:
+         var(--pink-bright);
+ }
+
+
+ .workspace-tab-header.is-active::after {
+
+     content:
+         "";
+
+     position:
+         absolute;
+
+     left:
+         12px;
+
+     right:
+         12px;
+
+     bottom:
+         0;
+
+     height:
+         2px;
+
+     border-radius:
+         10px;
+
+     background:
+         linear-gradient(90deg,
+             var(--pink-deep),
+             var(--pink-hot),
+             var(--pink-light));
+
+     box-shadow:
+         0 0 8px var(--pink-glow-strong);
+ }
+
+
+ /* =========================================================
+   LINKS
+   ========================================================= */
+
+ a.internal-link,
+ a.external-link {
+
+     color:
+         var(--link-color);
+
+     transition:
+         all 120ms ease;
+ }
+
+
+ a.internal-link:hover,
+ a.external-link:hover {
+
+     color:
+         var(--link-color-hover);
+
+     text-shadow:
+         0 0 9px var(--pink-glow);
+ }
+
+
+ /* =========================================================
+   HEADINGS
+   ========================================================= */
+
+ /* H1 — ONLY PINK */
+
+ .markdown-preview-view h1,
+ .cm-header-1 {
+
+     background:
+         linear-gradient(90deg,
+             var(--pink-hot),
+             var(--pink-bright),
+             var(--pink-light));
+
+     -webkit-background-clip:
+         text;
+
+     background-clip:
+         text;
+
+     -webkit-text-fill-color:
+         transparent;
+
+     font-weight:
+         750;
+
+     letter-spacing:
+         -0.025em;
+
+     margin-bottom:
+         0.7em;
+
+     text-shadow:
+         none;
+ }
+
+
+ /* H2 */
+
+ .markdown-preview-view h2,
+ .cm-header-2 {
+
+     color:
+         var(--pink-bright);
+
+     font-weight:
+         700;
+
+     letter-spacing:
+         -0.015em;
+
+     padding-bottom:
+         6px;
+
+     border-bottom:
+         1px solid rgba(255, 20, 147, 0.22);
+ }
+
+
+ /* H3 */
+
+ .markdown-preview-view h3,
+ .cm-header-3 {
+
+     color:
+         var(--pink-light);
+
+     font-weight:
+         650;
+ }
+
+
+ /* H4 */
+
+ .markdown-preview-view h4,
+ .cm-header-4 {
+
+     color:
+         var(--pink-soft);
+
+     font-weight:
+         600;
+ }
+
+
+ /* H5 */
+
+ .markdown-preview-view h5,
+ .cm-header-5 {
+
+     color:
+         var(--text-normal);
+
+     font-weight:
+         600;
+ }
+
+
+ /* H6 */
+
+ .markdown-preview-view h6,
+ .cm-header-6 {
+
+     color:
+         var(--text-muted);
+
+     font-weight:
+         600;
+ }
+
+
+ /* =========================================================
+   TEXT
+   ========================================================= */
+
+ .markdown-preview-view p {
+
+     line-height:
+         1.7;
+ }
+
+
+ .markdown-preview-view strong {
+
+     color:
+         var(--bold-color);
+
+     font-weight:
+         700;
+ }
+
+
+ .markdown-preview-view em {
+
+     color:
+         var(--italic-color);
+ }
+
+
+ /* =========================================================
+   BUTTONS
+   ========================================================= */
+
+ button {
+
+     border-radius:
+         var(--radius-s);
+
+     border:
+         1px solid var(--background-modifier-border);
+
+     transition:
+         all 150ms ease;
+ }
+
+
+ button:hover {
+
+     border-color:
+         var(--pink-border-bright);
+
+     background:
+         rgba(255, 20, 147, 0.06);
+
+     box-shadow:
+         0 0 15px var(--pink-glow-small);
+ }
+
+
+ .mod-cta {
+
+     background:
+         linear-gradient(135deg,
+             var(--pink-dark),
+             var(--pink-hot));
+
+     border-color:
+         var(--pink-hot);
+
+     color:
+         #ffffff;
+
+     box-shadow:
+         0 4px 20px var(--pink-glow);
+ }
+
+
+ .mod-cta:hover {
+
+     background:
+         linear-gradient(135deg,
+             var(--pink-hot),
+             var(--pink-bright));
+
+     border-color:
+         var(--pink-bright);
+
+     box-shadow:
+         0 6px 28px var(--pink-glow-strong);
+
+     transform:
+         translateY(-1px);
+ }
+
+
+ /* =========================================================
+   ICONS
+   ========================================================= */
+
+ .clickable-icon,
+ .side-dock-ribbon-action {
+
+     transition:
+         all 120ms ease;
+ }
+
+
+ .clickable-icon:hover,
+ .side-dock-ribbon-action:hover {
+
+     color:
+         var(--pink-hot);
+
+     background:
+         rgba(255, 20, 147, 0.09);
+
+     box-shadow:
+         0 0 12px rgba(255, 20, 147, 0.12);
+
+     transform:
+         scale(1.04);
+ }
+
+
+ /* =========================================================
+   CODE
+   ========================================================= */
+
+ .markdown-preview-view pre,
+ .cm-s-obsidian .HyperMD-codeblock-bg {
+
+     border-radius:
+         var(--radius-m);
+
+     border:
+         1px solid var(--pink-border-dark);
+
+     background:
+         linear-gradient(145deg,
+             rgba(255, 20, 147, 0.055),
+             rgba(255, 20, 147, 0.015),
+             transparent);
+
+     box-shadow:
+         inset 0 0 25px rgba(255, 20, 147, 0.025),
+         0 8px 30px rgba(0, 0, 0, 0.18);
+ }
+
+
+ code {
+
+     border-radius:
+         5px;
+
+     padding:
+         2px 5px;
+ }
+
+
+ /* =========================================================
+   BLOCKQUOTE
+   ========================================================= */
+
+ blockquote {
+
+     border-left:
+         3px solid var(--pink-hot);
+
+     border-radius:
+         0 var(--radius-s) var(--radius-s) 0;
+
+     background:
+         linear-gradient(90deg,
+             rgba(255, 20, 147, 0.13),
+             rgba(255, 20, 147, 0.045),
+             transparent);
+
+     padding:
+         0.8em 1em;
+
+     box-shadow:
+         inset 0 0 20px rgba(255, 20, 147, 0.025);
+ }
+
+
+ /* =========================================================
+   CHECKBOX
+   ========================================================= */
+
+ input[type="checkbox"] {
+
+     border-radius:
+         6px;
+
+     border-color:
+         var(--checkbox-border-color);
+
+     transition:
+         all 120ms ease;
+ }
+
+
+ input[type="checkbox"]:checked {
+
+     background:
+         var(--pink-hot);
+
+     border-color:
+         var(--pink-hot);
+
+     box-shadow:
+         0 0 10px var(--pink-glow);
+ }
+
+
+ /* =========================================================
+   TABLES
+   ========================================================= */
+
+ .markdown-preview-view table,
+ .markdown-source-view table {
+
+     width:
+         100%;
+
+     border-collapse:
+         separate;
+
+     border-spacing:
+         0;
+
+     overflow:
+         hidden;
+
+     border-radius:
+         var(--radius-m);
+
+     border:
+         1px solid var(--pink-border-dark);
+
+     margin:
+         1.2em 0;
+
+     box-shadow:
+         0 8px 28px rgba(0, 0, 0, 0.15);
+ }
+
+
+ .markdown-preview-view th,
+ .markdown-source-view th {
+
+     background:
+         linear-gradient(135deg,
+             var(--pink-deep),
+             var(--pink-hot),
+             var(--pink-dark));
+
+     color:
+         #ffffff;
+
+     font-weight:
+         700;
+
+     text-align:
+         left;
+
+     padding:
+         0.75em 1em;
+
+     border:
+         none;
+ }
+
+
+ .markdown-preview-view td,
+ .markdown-source-view td {
+
+     padding:
+         0.65em 1em;
+
+     border:
+         none;
+
+     border-top:
+         1px solid var(--background-modifier-border);
+ }
+
+
+ .markdown-preview-view tr:nth-child(even) td,
+ .markdown-source-view tr:nth-child(even) td {
+
+     background:
+         rgba(255, 20, 147, 0.035);
+ }
+
+
+ .markdown-preview-view tr:hover td,
+ .markdown-source-view tr:hover td {
+
+     background:
+         rgba(255, 20, 147, 0.09);
+ }
+
+
+ /* =========================================================
+   MODALS
+   ========================================================= */
+
+ .modal,
+ .menu,
+ .prompt {
+
+     border-radius:
+         var(--radius-l);
+
+     border:
+         1px solid var(--pink-border-dark);
+
+     box-shadow:
+         0 20px 65px rgba(0, 0, 0, 0.50),
+         0 0 35px rgba(255, 20, 147, 0.09);
+ }
+
+
+ /* =========================================================
+   SUGGESTIONS
+   ========================================================= */
+
+ .suggestion-item {
+
+     border-radius:
+         var(--radius-s);
+
+     margin:
+         2px 5px;
+
+     transition:
+         all 120ms ease;
+ }
+
+
+ .suggestion-item.is-selected {
+
+     background:
+         linear-gradient(90deg,
+             rgba(255, 20, 147, 0.14),
+             rgba(255, 20, 147, 0.05));
+
+     color:
+         var(--pink-light);
+
+     box-shadow:
+         inset 2px 0 0 var(--pink-hot);
+ }
+
+
+ /* =========================================================
+   INPUTS
+   ========================================================= */
+
+ input,
+ textarea {
+
+     border-radius:
+         var(--radius-s);
+
+     border:
+         1px solid var(--background-modifier-border);
+
+     transition:
+         all 150ms ease;
+ }
+
+
+ input:focus,
+ textarea:focus {
+
+     border-color:
+         var(--pink-border-bright);
+
+     box-shadow:
+         0 0 0 3px rgba(255, 20, 147, 0.08),
+         0 0 15px rgba(255, 20, 147, 0.08);
+ }
+
+
+ /* =========================================================
+   HORIZONTAL RULE
+   ========================================================= */
+
+ hr {
+
+     border:
+         none;
+
+     height:
+         1px;
+
+     background:
+         linear-gradient(90deg,
+             transparent,
+             var(--pink-deep),
+             var(--pink-hot),
+             var(--pink-deep),
+             transparent);
+
+     opacity:
+         0.8;
+
+     margin:
+         2em 0;
+ }
+
+
+ /* =========================================================
+   SELECTION
+   ========================================================= */
+
+ ::selection {
+
+     background:
+         rgba(255, 20, 147, 0.32);
+ }
+
+
+ /* =========================================================
+   SCROLLBAR
+   ========================================================= */
+
+ ::-webkit-scrollbar {
+
+     width:
+         9px;
+
+     height:
+         9px;
+ }
+
+
+ ::-webkit-scrollbar-track {
+
+     background:
+         transparent;
+ }
+
+
+ ::-webkit-scrollbar-thumb {
+
+     background:
+         linear-gradient(180deg,
+             var(--pink-deep),
+             var(--pink-dark));
+
+     border-radius:
+         10px;
+
+     border:
+         2px solid transparent;
+
+     background-clip:
+         content-box;
+ }
+
+
+ ::-webkit-scrollbar-thumb:hover {
+
+     background:
+         var(--pink-hot);
+
+     background-clip:
+         content-box;
+
+     box-shadow:
+         0 0 10px var(--pink-glow);
+ }
+
+
+ /* =========================================================
+   FOCUS
+   ========================================================= */
+
+ *:focus-visible {
+
+     outline:
+         2px solid var(--pink-hot);
+
+     outline-offset:
+         2px;
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — EXTRA CONTRAST
+   ========================================================= */
+
+ .theme-light .markdown-preview-view,
+ .theme-light .markdown-source-view {
+
+     color:
+         #17171c;
+ }
+
+
+ .theme-light .markdown-preview-view p,
+ .theme-light .markdown-preview-view li {
+
+     color:
+         #202027;
+
+     line-height:
+         1.7;
+ }
+
+
+ .theme-light .markdown-preview-view strong {
+
+     color:
+         #111116;
+
+     font-weight:
+         700;
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — HEADINGS
+   ========================================================= */
+
+ .theme-light .markdown-preview-view h1 {
+
+     background:
+         linear-gradient(90deg,
+             #a80059,
+             #c60068,
+             #df237f);
+
+     -webkit-background-clip:
+         text;
+
+     background-clip:
+         text;
+
+     -webkit-text-fill-color:
+         transparent;
+ }
+
+
+ .theme-light .markdown-preview-view h2 {
+
+     color:
+         #b90061;
+
+     border-bottom:
+         1px solid rgba(201, 0, 104, 0.25);
+ }
+
+
+ .theme-light .markdown-preview-view h3 {
+
+     color:
+         #c9006d;
+ }
+
+
+ .theme-light .markdown-preview-view h4 {
+
+     color:
+         #c52a78;
+ }
+
+
+ .theme-light .markdown-preview-view h5 {
+
+     color:
+         #303038;
+ }
+
+
+ .theme-light .markdown-preview-view h6 {
+
+     color:
+         #44444d;
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — LINKS
+   ========================================================= */
+
+ .theme-light a.internal-link,
+ .theme-light a.external-link {
+
+     color:
+         #b90061;
+
+     font-weight:
+         500;
+ }
+
+
+ .theme-light a.internal-link:hover,
+ .theme-light a.external-link:hover {
+
+     color:
+         #e9007f;
+
+     text-shadow:
+         0 0 6px rgba(233, 0, 127, 0.15);
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — SIDEBAR
+   ========================================================= */
+
+ .theme-light .nav-file-title,
+ .theme-light .nav-folder-title {
+
+     color:
+         #303038;
+ }
+
+
+ .theme-light .nav-file-title:hover,
+ .theme-light .nav-folder-title:hover {
+
+     color:
+         #b90061;
+
+     background:
+         rgba(255, 20, 147, 0.065);
+ }
+
+
+ .theme-light .nav-file-title.is-active,
+ .theme-light .nav-folder-title.is-active,
+ .theme-light .tree-item-self.is-active {
+
+     color:
+         #b90061;
+
+     background:
+         linear-gradient(90deg,
+             rgba(255, 20, 147, 0.15),
+             rgba(255, 20, 147, 0.035),
+             transparent);
+
+     box-shadow:
+         inset 3px 0 0 var(--pink-hot);
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — BLOCKQUOTE
+   ========================================================= */
+
+ .theme-light blockquote {
+
+     color:
+         #303038;
+
+     background:
+         linear-gradient(90deg,
+             rgba(255, 20, 147, 0.10),
+             rgba(255, 20, 147, 0.025),
+             transparent);
+
+     border-left:
+         3px solid var(--pink-hot);
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — CODE
+   ========================================================= */
+
+ .theme-light .markdown-preview-view code {
+
+     color:
+         #9d005b;
+
+     background:
+         #f1eef2;
+
+     border:
+         1px solid #ded6dc;
+ }
+
+
+ .theme-light .markdown-preview-view pre {
+
+     color:
+         #25252b;
+
+     background:
+         linear-gradient(145deg,
+             rgba(255, 20, 147, 0.035),
+             #f5f3f5);
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — TABLES
+   ========================================================= */
+
+ .theme-light .markdown-preview-view table,
+ .theme-light .markdown-source-view table {
+
+     color:
+         #202027;
+
+     border-color:
+         #d6d5dc;
+ }
+
+
+ .theme-light .markdown-preview-view th,
+ .theme-light .markdown-source-view th {
+
+     color:
+         #ffffff;
+
+     background:
+         linear-gradient(135deg,
+             #a80059,
+             #e9007f,
+             #c9006d);
+ }
+
+
+ .theme-light .markdown-preview-view td,
+ .theme-light .markdown-source-view td {
+
+     color:
+         #25252b;
+
+     border-top:
+         1px solid #dedee4;
+ }
+
+
+ .theme-light .markdown-preview-view tr:hover td,
+ .theme-light .markdown-source-view tr:hover td {
+
+     background:
+         rgba(255, 20, 147, 0.07);
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — BUTTONS
+   ========================================================= */
+
+ .theme-light button:hover {
+
+     border-color:
+         #e9007f;
+
+     background:
+         rgba(255, 20, 147, 0.05);
+
+     box-shadow:
+         0 0 12px rgba(233, 0, 127, 0.10);
+ }
+
+
+ .theme-light .mod-cta {
+
+     background:
+         linear-gradient(135deg,
+             #b90061,
+             #e9007f);
+
+     border-color:
+         #e9007f;
+
+     color:
+         #ffffff;
+ }
+
+
+ .theme-light .mod-cta:hover {
+
+     background:
+         linear-gradient(135deg,
+             #e9007f,
+             #f01b91);
+
+     box-shadow:
+         0 6px 25px rgba(233, 0, 127, 0.25);
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — INPUTS
+   ========================================================= */
+
+ .theme-light input,
+ .theme-light textarea {
+
+     color:
+         #17171c;
+
+     background:
+         #ffffff;
+
+     border-color:
+         #d4d3da;
+ }
+
+
+ .theme-light input::placeholder,
+ .theme-light textarea::placeholder {
+
+     color:
+         #777780;
+ }
+
+
+ .theme-light input:focus,
+ .theme-light textarea:focus {
+
+     border-color:
+         #e9007f;
+
+     box-shadow:
+         0 0 0 3px rgba(233, 0, 127, 0.08);
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — TABS
+   ========================================================= */
+
+ .theme-light .workspace-tab-header {
+
+     color:
+         #555560;
+ }
+
+
+ .theme-light .workspace-tab-header.is-active {
+
+     color:
+         #b90061;
+ }
+
+
+ .theme-light .workspace-tab-header.is-active::after {
+
+     background:
+         linear-gradient(90deg,
+             #a80059,
+             #e9007f,
+             #ed4ca3);
+
+     box-shadow:
+         0 0 8px rgba(233, 0, 127, 0.35);
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — MODALS
+   ========================================================= */
+
+ .theme-light .modal,
+ .theme-light .menu,
+ .theme-light .prompt {
+
+     background:
+         #ffffff;
+
+     border-color:
+         #d6d5dc;
+
+     box-shadow:
+         0 18px 50px rgba(0, 0, 0, 0.16),
+         0 0 25px rgba(233, 0, 127, 0.06);
+ }
+
+
+ /* =========================================================
+   LIGHT MODE — SCROLLBAR
+   ========================================================= */
+
+ .theme-light ::-webkit-scrollbar-thumb {
+
+     background:
+         linear-gradient(180deg,
+             #b90061,
+             #e9007f);
+ }
+
+
+ .theme-light ::-webkit-scrollbar-thumb:hover {
+
+     background:
+         #e9007f;
+ }
+
+
+ /* =========================================================
+   MOBILE
+   ========================================================= */
+
+ @media (max-width: 700px) {
+
+     .markdown-preview-view table,
+     .markdown-source-view table {
+
+         font-size:
+             0.9em;
+     }
+
+
+     .markdown-preview-view th,
+     .markdown-preview-view td {
+
+         padding:
+             0.55em 0.7em;
+     }
+
+
+     .workspace-tab-header.is-active::after {
+
+         left:
+             8px;
+
+         right:
+             8px;
+     }
+ }
